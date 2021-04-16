@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ESNEXT",
+		"module": "ESNEXT",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": false,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"lib": ["ESNEXT", "dom"],
+		"types": ["vite/client", "node"],
+		"baseUrl": ".",
+		"typeRoots": ["types"],
+		"paths": {
+			"@/*": ["packages/render/src/*"]
+		}
+	},
+	"include": ["packages/**/*.ts", "packages/render/src/**/*.d.ts", "packages/render/src/**/*.tsx", "packages/render/src/**/*.vue"]
+}

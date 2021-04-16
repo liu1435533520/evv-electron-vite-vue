@@ -1,0 +1,28 @@
+{
+	"name": "create-evv",
+	"version": "1.0.62",
+	"description": "Create an Electron project based on vite2 and vue3.",
+	"keywords": [
+		"electron",
+		"vite",
+		"vue"
+	],
+	"main": "index.js",
+	"bin": {
+		"create-evv": "bin/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "ltt",
+		"email": "527172332@qq.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"enquirer": "^2.3.6",
+		"fs-extra": "^9.1.0",
+		"kolorist": "^1.4.0",
+		"minimist": "^1.2.5"
+	}
+}
