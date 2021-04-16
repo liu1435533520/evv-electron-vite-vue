@@ -10,6 +10,6 @@ with npm:
 
 ```javascript
 
-    npm init <project-name>
+    npm init evv
 
 ```
